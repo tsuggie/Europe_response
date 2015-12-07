@@ -63,6 +63,10 @@ body {
 	padding-bottom: 20px;
 }
 
+.container {
+	width: 80%;
+}
+
 .center-block {margin: 0 auto;}
 
 
