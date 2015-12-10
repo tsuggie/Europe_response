@@ -80,29 +80,15 @@ body {
     border-left-color: #ddd;
 }
 
-/* p {
-    font-size:1.4em;
-} */
 
-/*.thumb_text {
-	margin-top: 10px;
-	margin-left: 5px;
-    font-size:1.1em;
-	font-weight: bold;
-    color: #000;
-}
-
-.thumb_sub_text {
-	margin-top: 0px;
-	margin-left: 5px;
-    font-size:1.0em;
-    color: #777;
-}
-*/
-
-
-
+	
 .button {
+background-image: -moz-linear-gradient(top, #e60000, #800000);
+	background-color: #cc0000;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
+    background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -moz-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -o-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
 	width: 300px;
 	height: 150px;
     display: inline-block;
@@ -164,3 +150,22 @@ body {
     -o-transform: translate(0, 4px);
     transform: translate(0, 4px);
 }
+
+.button {
+border: 1px solid #979797; 
+}
+
+.button.icon {
+padding-left: 1px;		
+}
+
+.button.icon span{
+padding-left: 36px;
+background: url(rcrc.gif) no-repeat 0 -4px;
+}
+
+.button.icon.pos span {
+background-position: 210px 90px;     /* x,y- position it in the button */
+}
+
+
