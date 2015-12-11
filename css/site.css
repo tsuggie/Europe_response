@@ -8,7 +8,7 @@ body {
 	background-attachment: fixed;
 }
 
-.titledesc{
+.titledesc {
     font-size:1.3em;
 	/* color: #777; */
     color: #000;   
@@ -16,9 +16,22 @@ body {
 	margin-bottom: 20px;
 }
 
+.footnote {
+	font-size:1.2em;
+	/* color: #777; */
+    color: #777;   
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
 .title{
-    font-size:2.4em;
+    font-size:2.2em;
 	font-weight: bold;
+}
+
+.desc {
+	margin-top: 20px;
+	color: #777;
 }
 
 .spacer {
@@ -165,7 +178,13 @@ background: url(rcrc.gif) no-repeat 0 -4px;
 }
 
 .button.icon.pos span {
-background-position: 210px 90px;     /* x,y- position it in the button */
+background-position: 200px 90px;     /* x,y- position it in the button   210px 90px */
+background-size: 80px, 50px;
+}
+
+.logo {
+	width:26px;
+	height:16px;
 }
 
 
